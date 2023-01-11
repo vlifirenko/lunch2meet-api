@@ -1,0 +1,13 @@
+<a href="#/profile/{{message.user.id}}">
+  <table>
+    <tr>
+      <td class="pic-cell" rowspan="3"><img class="img-circle" src="{{message.user.pictureURL}}"></td>
+      <td class="name-cell" colspan="2">{{message.user.name}}, {{message.user.status}}</td>
+    </tr>
+    <tr><td class="text-cell" colspan="2">{{message.message.text}}</td></tr>
+    <tr>
+      <td class="date-cell">{{message.message.datetime | date:'HH:mm dd.MM.yyyy'}}</td>
+      <td class="dist-cell pull-right">{{message.message.distance | number:1}} км.</td>
+    </tr>
+  </table>
+</a>

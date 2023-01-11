@@ -1,0 +1,15 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>Lunch2meet</servlet-name>
+    <servlet-class>com.lunchandmeet.Lunch2meetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Lunch2meet</servlet-name>
+    <url-pattern>/api</url-pattern>
+  </servlet-mapping>
+  <display-name>lunchandmeet</display-name>
+</web-app>

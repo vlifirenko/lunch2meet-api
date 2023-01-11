@@ -1,0 +1,20 @@
+<div id="main">
+
+  <div id="header">
+    <table><tr>
+      <td class="first"><a class="btn pull-left" href="#/menu"><img src='/img/glyphicons_158_show_lines.png'></a></td>
+      <td><h4>Общий чат</h4></td>
+      <td class="last"><a class="btn pull-right" href="#/messages">{{dialogs_count}} <img src='/img/glyphicons_010_envelope.png'></a></td>
+    </tr></table>
+  </div>
+
+  <div id="chat-content">
+    <div class="message"
+         ng-repeat="message in messages"
+         ng-include="'partials/_message.html'">
+    </div>
+  </div>
+
+  <div colspan="3" id="footer" ng-include src="'partials/_chat_form.html'"></div>
+
+</div>

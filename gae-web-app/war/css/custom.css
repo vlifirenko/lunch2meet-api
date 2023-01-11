@@ -1,0 +1,226 @@
+h1
+{
+  font-size: 150%;
+  font-weight: normal;
+}
+
+h2
+{
+  font-size: 140%;
+  font-weight: normal;
+}
+
+h3
+{
+  font-size: 130%;
+  font-weight: normal;
+}
+
+h4
+{
+  font-weight: normal;
+  margin: 0;
+}
+
+#slogan
+{
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+html,
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#layout-div
+{
+  height: 100%;
+  width: 100%;
+}
+
+#main
+{
+  max-width: 600px;
+  margin: auto;
+}
+
+#header,
+#footer
+{
+  max-width: 600px;
+  background-color: #efefef;
+  text-align: center;
+  padding: 5px;
+}
+
+#header
+{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+#header table
+{
+  width: 100%;
+}
+
+#header td
+{
+  padding: 0 7px;
+}
+
+#header td.first,
+#header td.last
+{
+  width: 50px;
+}
+
+#header a
+{
+  white-space: nowrap;
+  padding: 4px 6px 5px 6px;
+}
+
+#locAlert
+{
+  margin: 0 9px;
+}
+
+#chat-content
+{
+  padding: 50px 7px 80px 7px;
+}
+
+#footer
+{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+body#front
+{
+  height: 98%;
+  background: url('/img/bg.png') no-repeat center top 150px;
+}
+
+#chat-form td
+{
+  vertical-align: top;
+}
+
+#chat-form textarea
+{
+  height: 50px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#chat-form .btn-primary
+{
+  height: 50px;
+  display: block;
+}
+
+.message
+{
+  padding: 5px 0;
+  width: 100%;
+}
+
+.message table
+{
+  width: 100%;
+}
+
+.message td
+{
+  vertical-align: top;
+}
+
+.message a,
+.message a:hover,
+.message a:visited
+{
+  color: black;
+  text-decoration: none;
+}
+
+.message .pic-cell
+{
+  width: 20%;
+  padding-right: 2%;
+  vertical-align: top;
+  text-align: center;
+}
+
+.message .pic-cell img
+{
+  width: 100%;
+}
+
+.message .name-cell,
+.message .date-cell,
+.message .dist-cell
+{
+  color: #b0b0b0;
+}
+
+.message .date-cell,
+.message .dist-cell
+{
+  font-size: 80%;
+}
+
+#profile-info td
+{
+  vertical-align: top;
+}
+
+#profile-info .pic-cell
+{
+  padding-right: 2%;
+}
+
+#menu-list
+{
+  list-style: none;
+  margin: 50px 0 0 0;
+}
+
+#menu-list li a,
+#menu-list li a:hover,
+#menu-list li a:visited
+{
+  display: block;
+  padding: 10px 7px;
+  color: black;
+  text-decoration: none;
+}
+
+#menu-list img
+{
+  float: right;
+}
+
+#logos
+{
+  background-color: #ededed;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+#logos img
+{
+  height: 40px;
+  padding: 10px;
+}

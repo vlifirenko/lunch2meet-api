@@ -1,0 +1,19 @@
+<center style="padding-top: 20px;">
+  <form>
+    <div class="control-group">
+      <img class="img-circle" ng-src="{{user.pictureURL}}" />
+    </div>
+    <div class="control-group">
+      <a href="{{user.profileURL}}"><img src="img/glyphicons_382_google_plus.png">&nbsp;{{user.name}}</a>
+    </div>
+    <div class="control-group">
+      <label class="control-label" for="about">Как Вас представить?</label>
+      <div class="controls">
+        <input type="text" id="about" placeholder="Напр.: программист из Google" ng-model="user.status" />
+      </div>
+    </div>
+    <div class="control-group">
+      <button class="btn btn-primary" ng-click="save()">Сохранить</button>
+    </div>
+  </form>
+</center>
